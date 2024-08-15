@@ -1,5 +1,4 @@
-# <p style="text-align: center;"> 🍞 Bread & Butter Bakery 🧈 </p>
-# <p style="text-align: center;">Market Basket Analysis</p>
+# <p style="text-align: center;"> 🍞 Bread & Butter Bakery 🧈 Market Basket Analysis </p>
 
 ## Project Task 🎯🚀
 
