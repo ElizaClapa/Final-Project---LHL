@@ -1,4 +1,4 @@
-# <p style="text-align: center;"> ⚙️🔍📉 Final Project - 🍞 Bread & Butter Bakery 🧈 Market Basket Analysis 📈🔎🛠️</p>
+# <p style="text-align: center;"> 🍞 Bread & Butter Bakery 🧈 Market Basket Analysis 📈🔎🛠️</p>
 # <p style="text-align: center;"> ...🥐.....🥧......🍪.....🥖.....🍞.....🥨.....🧁......🎂.....🥯...</p>
 
 ## Project Task 🎯🚀
