@@ -1,0 +1,82 @@
+/* static/styles.css */
+body {
+    background-color: rgb(237, 228, 193);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(237, 228, 193);
+    border: 10px solid rgb(83, 56, 32);
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: rgb(83, 56, 32);
+    font-weight: 700;
+    font-size: 2.5em; /* Set h2 font size to match WELCOME and Recommendation Engine */
+}
+
+.welcome-message h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em; /* Font size for Bread & Butter Bakery */
+    margin: 0;
+}
+
+.welcome-message .emoji-line {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.recommendations {
+    margin-top: 20px;
+}
+
+.recommendation-item {
+    font-size: 1.5em;
+    color: rgb(83, 56, 32);
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    border-radius: 0;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a.btn {
+    color: white;
+    background-color: rgb(83, 56, 32);
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-color: rgb(59, 40, 23);
+}

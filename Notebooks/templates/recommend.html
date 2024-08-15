@@ -1,0 +1,27 @@
+<!-- templates/recommend.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h2>Your recommended products are:</h2>
+        <div class="recommendations">
+            {% for product in recommendations %}
+            <div class="recommendation-item">
+                {{ product }}
+            </div>
+            {% endfor %}
+        </div>
+        <a href="/" class="btn btn-secondary mt-4">Back to Home</a>
+    </div>
+</body>
+</html>
+
+
+

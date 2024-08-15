@@ -1,0 +1,31 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Welcome Message -->
+        <div class="welcome-message text-center mt-4">
+            <h2>WELCOME TO</h2>
+            <h1>Bread & Butter</h1>
+            <h2>🍞🧁🥖 Recommendation Engine 🍰🥐🍪</h2>
+        </div>
+
+        <form action="/recommend" method="POST" class="mt-4">
+            <div class="form-group">
+                <label for="products">Enter Products:</label>
+                <input type="text" class="form-control" id="products" name="products" placeholder="e.g., Bread, Butter, Cookies">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Get Recommendations</button>
+        </form>
+    </div>
+</body>
+</html>
